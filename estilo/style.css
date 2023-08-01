@@ -1,0 +1,244 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+@font-face {
+  font-family: Idroid;
+  src: url('/fontes/idroid.otf') format('opentype');
+}
+
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
+:root {
+  --cor0: #c5ebd6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
+  --fonte-padrão: arial, verdana, helvetica, sans-serif;
+  --fonte-destaque: 'Bebas Neue', 'cursive';
+  --fonte-android: 'Idroid, cursive';
+}
+
+body {
+  background-image: linear-gradient(to top, var(--cor5), var(--cor4), var(--cor3), var(--cor2), var(--cor1));
+}
+
+a.externo::after {
+  content: '\1F517\00A0\00A0';
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+  height: 150px;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+header h1 {
+  color: var(--cor0);
+  text-align: center;
+  font-family: 'Bebas neue';
+  padding: 20px;
+  font-weight: normal;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.407);
+}
+
+header p {
+  color: var(--cor0);
+  text-align: center;
+  font-family: 'Bebas neue';
+  font-style: normal;
+  font-size: 16px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.407);
+  margin-top: -15px;
+}
+
+p {
+  padding: 10px;
+  margin: 15px 0px;
+  font-family: 'Roboto Slab';
+}
+
+nav {
+  background-color: #063d1e;
+  padding: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.407);
+}
+
+nav a {
+  color: #ffffff;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: auto;
+  width: 100%;
+  font-family: 'Arial';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-style: normmal;
+  padding: 5px;
+  transition-duration: 0.3s;
+}
+
+nav a:hover {
+  background-color: #59b081;
+  border-radius: 3px;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 20px;
+  min-width: 300px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.381);
+}
+
+div.video {
+background-color: var(--cor5);
+margin-bottom: 30px;
+margin: 0px -20px 30px -20px;
+padding: 20px;
+padding-bottom: 50%;
+position: relative;
+width: 100%;
+}
+
+div.video > iframe {
+ position: absolute;
+ top: 7%;
+ left: 7%;
+ height: 85%;
+ width: 85%;
+ border-radius: 20px;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.381);
+}
+
+main strong {
+  color: #000000;
+  font-weight: bold;
+}
+
+main article h1 {
+  color: var(--cor4);
+  font-family: 'Idroid';
+}
+
+main article h2 {
+  color: var(--cor5);
+  font-family: 'Idroid';
+  background-image: linear-gradient(to right, var(--cor3), transparent);
+  text-indent: 10px;
+  font-weight: normal;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+main article p {
+  color: var(--cor5);
+  text-align: justify;
+  text-indent: 10px;
+  font-family: 'Poppins';
+  font-style:normal;
+  padding: 10px;
+}
+
+main img {
+ width: 100%;
+}
+
+img {
+  border-radius: 20px;
+}
+
+#fotopequena {
+ max-width: 350px;
+ display: block;
+ margin: auto;
+ box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  color: #063d1e;
+}
+
+aside {
+  background-color: #3ddc84;
+  max-height: 550px;
+  margin: auto;
+  border-radius: 20px;
+  font-family: arial;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.463);
+}
+
+aside ul {
+  padding: 10px;
+  list-style-type: '\2714\00A0\00A0';
+  list-style-position: inside;
+  columns: 2;
+  font-family: 'Idroid';
+ }
+
+aside a:hover {
+  color: white;
+  transition-duration: 0.2s;
+}
+
+section aside h3 {
+  background-color: var(--cor5);
+  color: var(--cor0);
+  padding: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  border-radius: 20px 20px 0px 0px;
+}
+
+section aside p {
+  margin: auto;
+  text-align: justifys;
+  font-family: 'poppins';
+  color: black;
+ }
+
+footer {
+  background-color: black;
+  color: var(--cor5);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: -35px;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+  padding: 10px;
+  font-family: 'Roboto Slab';
+  font-size: 12px;
+}
+
+
