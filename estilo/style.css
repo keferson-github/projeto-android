@@ -66,7 +66,7 @@ header p {
   text-align: center;
   font-family: 'Bebas neue';
   font-style: normal;
-  font-size: 16px;
+  font-size: 18px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.407);
   margin-top: -15px;
 }
@@ -75,6 +75,7 @@ p {
   padding: 10px;
   margin: 15px 0px;
   font-family: 'Roboto Slab';
+  font-size: 16px;
 }
 
 nav {
@@ -134,7 +135,7 @@ div.video>iframe {
   left: 7%;
   height: 85%;
   width: 85%;
-  border-radius: 20px;
+  border-radius: 30px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.381);
 }
 
@@ -174,7 +175,8 @@ main img {
 }
 
 img {
-  border-radius: 20px;
+  border-radius: 10px;
+  height: 300px;
 }
 
 #fotopequena {
@@ -243,5 +245,5 @@ footer p {
   color: white;
   padding: 10px;
   font-family: 'Roboto Slab';
-  font-size: 12px;
+  font-size: 16px;
 }
