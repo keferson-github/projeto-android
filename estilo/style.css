@@ -123,9 +123,10 @@ div.video {
   padding: 20px;
   padding-bottom: 50%;
   position: relative;
-  width: 100%;
+  <<<<<<< HEAD width: 100%;
   margin-left: -5px;
   border-radius: 60px 5px 60px 5px;
+  width: 100%;
 }
 
 div.video>iframe {
