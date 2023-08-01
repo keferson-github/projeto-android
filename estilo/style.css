@@ -66,9 +66,8 @@ header p {
   text-align: center;
   font-family: 'Bebas neue';
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.407);
-  margin-top: -15px;
 }
 
 p {
@@ -76,6 +75,7 @@ p {
   margin: 15px 0px;
   font-family: 'Roboto Slab';
   font-size: 16px;
+  margin-bottom: -10px;
 }
 
 nav {
@@ -169,6 +169,16 @@ main article p {
   padding: 20px;
 }
 
+section #ultimo-parafrao p {
+  color: var(--cor5);
+  text-align: justify;
+  text-indent: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding: 20px;
+  margin-top: -40px;
+}
+
 
 main img {
   width: 100%;
@@ -245,5 +255,5 @@ footer p {
   color: white;
   padding: 10px;
   font-family: 'Roboto Slab';
-  font-size: 16px;
+  font-size: 12px;
 }
